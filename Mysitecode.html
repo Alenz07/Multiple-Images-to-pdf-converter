@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+
+<head>
+<title/>
+<b:skin><![CDATA[]]></b:skin>
+<link href='' rel='icon' type='image/png'/>
+</head>
+
+<b:section id='test'>
+  <b:widget id='HTML1' locked='false' title='' type='HTML'>
+    <b:widget-settings>
+      <b:widget-setting name='content'>&lt;!doctype html&gt;
+
+  &lt;style&gt;
+    *, *:after, *:before {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: &quot;Times New Roman&quot;, Times, serif;
+      font-size: 18px;
+      line-height: 1.5;
+      margin: 0;
+      padding: 0;
+      background-color: #F0F7FF;
+    }
+
+    .container1 {
+      width: 80%;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+
+    h1 {
+      font-family: &quot;Times New Roman&quot;, serif;
+      font-size: 24px;
+      color: #333333;
+    }
+
+    ol {
+      font-family: &quot;Times New Roman&quot;, serif;
+      font-size: 21px;
+      color: #333333;
+    }
+
+    button {
+      display: block;
+      width: 200px;
+      margin: 20px auto;
+      padding: 10px;
+      background-color: #ff0000;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      font-family: &quot;Times New Roman&quot;, serif;
+      font-size: 18px;
+    }
+
+    .header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: #F0F7FF;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      z-index: 9999;
+    }
+
+ 
+
+    .title {
+      font-family: Times New Roman;
+      font-size: 24px;
+      font-weight: bold;
+      background: #F0F7FF;
+    }
+
+    .content {
+      margin-top: 80px;
+    }
+
+    .container {
+      background: white;
+      width: 450px;
+      padding: 35px;
+      border-radius: 5px;
+      margin: 0 auto;
+    }
+
+    input {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      z-index: 1;
+    }
+
+    .button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+    }
+
+    #showImg {
+      display: block;
+      margin: 0 auto;
+      max-width: 1%;
+      max-height: 1px;
+      background: #174353;
+      border-radius: 5px;
+    }
+
+    button,
+    .upload {
+      width: 220px;
+      margin: 10px;
+      text-align: center;
+      position: relative;
+      padding: 10px 5px;
+      font-size: 17px;
+      outline: none;
+      color: #fff;
+      border: none;
+      background-color: #023780;
+      border-radius: 5px;
+      display: block;
+    }
+
+    .upload {
+      background: #a74901;
+    }
+
+    .main-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 100%;
+    }
+
+    .small-container {
+      width: calc(33.33% - 20px);
+      margin-bottom: 20px;
+      border: 1px solid black;
+      padding: 10px;
+    }
+
+    @media screen and (max-width: 768px) {
+      .container1 {
+        width: 90%;
+      }
+ 
+
+      .small-container {
+        width: calc(50% - 20px);
+      }
+    }
+
+    @media screen and (max-width: 480px) {
+      .container1 {
+        width: 95%;  
+margin: 35%
+      }
+
+      .small-container {
+        width: 100%;
+      }
+    }
+.title-box {
+  background: linear-gradient(to right, #FFFFFF, #F8F8FF);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+
+.title {
+  font-family: serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+  &lt;/style&gt;
+ &lt;div class=&quot;title-box&quot;&gt;
+
+    &lt;h1 class=&quot;title&quot;&gt;Image to PDF&lt;/h1&gt;
+  &lt;/div&gt;
+
+
+  &lt;div class=&quot;container1&quot;&gt;
+    &lt;h1&gt;How to use Image to PDF converter&lt;/h1&gt;
+
+    &lt;div class=&quot;main-container&quot;&gt;
+      &lt;div class=&quot;small-container&quot;&gt;
+        &lt;img src=&quot;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhuFLMZsNR7tWNyoxiIxG8w7OE4WhjTEuEo4XWU4110GTFMSOXLIu63A6zTBb-ik76O0C-0W22x0jKHLyKcdrWjfQnIoL6FpsGu3icEfNo07-TXneIG-BYIDyvEhgd7FZs9VApXm6s9qW_kzRi3eTsiQEMhVWPqCoczKH_bTal5t9m4nG75DHTJL51dt1c/s1024/OIG%20(53).jpg&quot; alt=&quot;Logo&quot; width=&quot;150&quot; height=&quot;150&quot; /&gt;
+        &lt;p&gt;Upload Image&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;small-container&quot;&gt;
+        &lt;img src=&quot;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgj0kUazJaIXRFEd1ar4RQDTWO8Kl6vcJt1o4zSPt4z99cutsEl7-RMUtUEOjw2s110C9wGKx0PqvSz3w9PEFPcgAaVJI2j1MQucbN0gbOBatzu6hpWC5aMWgdz7OGVq0JbhBdusPmC8fK0sWA5HiqmUJ9Th-GrmwhgC6Gow0IY9Yw-NsJovdnXkTcyDeI/s1024/OIG.Gb5Imf.jpg&quot; alt=&quot;Logo&quot; width=&quot;150&quot; height=&quot;150&quot; /&gt;
+        &lt;p&gt;Conversion to pdf&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;small-container&quot;&gt;
+        
+        &lt;img src=&quot;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCvl0RIU4X5Rw4rhifQSziOIeGmxAWVn6bWcBTCI1eOaLYvOH5kwkz1YdoUF3LKlpJpKsrAGQ98fXJKWceZQvxNtR6_8trCcAww-MRTGMaopE3pwNCSDVr54GPBj8m3IM0R3O0e2HYqBNnZtS5OnoeI-GuogJIeMgMpY5j1DDrDJeQ-l9MBFvgAF190eQ/s930/copt.jpg&quot; alt=&quot;Logo&quot; width=&quot;150&quot; height=&quot;150&quot; /&gt;
+        &lt;p&gt;Download&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;container&quot;&gt;
+    &lt;img id=&quot;showImg&quot; src=&quot;images/img.png&quot; /&gt;
+
+    &lt;div class=&quot;button&quot;&gt;
+      &lt;div class=&quot;upload&quot;&gt;
+        &lt;input type=&quot;file&quot; onchange=&quot;loadFiles(event)&quot; name=&quot;&quot; accept=&quot;.png, .jpg, .jpeg&quot; multiple /&gt;
+        Upload Images
+      &lt;/div&gt;
+
+      &lt;button onclick=&quot;pdfDown()&quot;&gt;Download To PDF&lt;/button&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;div class=&quot;main-container&quot;&gt;
+    &lt;div class=&quot;small-container&quot;&gt;
+      &lt;img src=&quot;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiekiWjoyXGVYXoTlahzlcMfaJ5JcFUfPo_CJmA2OVSAPngdxPOpC0Eic0TGi3fAzT98wUIYYwtDcbvd9VxoemSBCZHa2BcTohhzMzD7q48pH6xf2dh0Fr8IArCJdy7jEAqTgd-evS-a14BgYBfqKWVUf5h8LYpAAoA_KX5voZ0EGCDxSbzEBfE7nNSf5I/s1024/OIG%20(54).jpg&quot; alt=&quot;Logo&quot; width=&quot;150&quot; height=&quot;150&quot; /&gt;
+      &lt;p&gt;Fast to convert&lt;br /&gt; image to pdf&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;small-container&quot;&gt;
+      &lt;img src=&quot;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisUcxGCBGdiHs_ypG0bcVli1e9juYEOJE0ijs1ib_YAhew2v9YSCSSaoUEWbmgBJuR5u0wbAAlcbFUWN0C-IR66IWaap-gNM2UIBXFyIORdWOhIsnPduE3CA8TFklDyOrtrjwmkztrh3W2Mu9tAqyWbsC0LsVewUS3sRVp9tJYMbLjGFJfqu0CcGL0CXk/s1024/OIG%20(55).jpg&quot; alt=&quot;Logo&quot; width=&quot;150&quot; height=&quot;150&quot; /&gt;
+      &lt;p&gt;Easy to use&lt;/p&gt;
+    &lt;/div&gt; 
+ &lt;div class=&quot;small-container&quot;&gt;
+      &lt;img src=&quot;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMgM6ZkJfeiRPWorNsA65Joamk4uFRJI8c7tCXJduqW6S1B8Sk2wOt6_xZ8EXgVEeGtVwcRnMBj01ApL_3DEyy1LhekLnGOBg5J7-kG0CkBuevN52cy8W9nzDSDrrLEq2nWJSIF5ye3OOwh3PQajn08amfTa06FighL5p9kqEXgb4Te3oYTtv7jPgysBI/s890/phots.jpg&quot; alt=&quot;Logo&quot; width=&quot;150&quot; height=&quot;150&quot; /&gt;
+      &lt;p&gt;Supports multiple &lt;br /&gt; extension&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;div class=&quot;containerx&quot;&gt;
+    &lt;h1&gt;Fast Image to Pdf Converter&lt;/h1&gt;
+    &lt;ol&gt;
+      &lt;li&gt;Introducing our lightning-fast and versatile Image to PDF Converter Tool! With our website, you can effortlessly convert various image formats, including PNG, JPEG, and many more, into high-quality PDF files. Our tool is designed to provide a seamless and user-friendly experience, enabling you to convert your images into PDFs quickly and efficiently.&lt;/li&gt;
+      &lt;li&gt;At the heart of our Image to PDF Converter Tool is its robust support for multiple image formats. We understand that different users may have images in various formats, and our tool ensures that you can convert them all with ease. Whether you have PNG files with transparent backgrounds, JPEG files with high-quality photographs, or other popular image formats like GIF, BMP, TIFF, or SVG, our converter tool handles them all effortlessly. This versatility allows you to convert any image format into a standardized PDF file, making it convenient for sharing, printing, archiving, and more.&lt;/li&gt;
+      &lt;li&gt;One of the key highlights of our converter tool is its speed. We recognize the importance of your time, and thus we have developed a high-performance conversion engine that delivers swift results. With our tool, you can convert your images to PDFs in a matter of seconds, even when dealing with large image files or multiple images at once. This efficiency ensures that you can complete your conversions quickly and move on with your tasks, saving you valuable time and effort.&lt;/li&gt;
+      &lt;li&gt;To provide a seamless experience, we have designed our website to be user-friendly and intuitive. The conversion process is straightforward and requires just a few simple steps. Start by selecting the image files you want to convert, either by uploading them from your device or by providing the file URLs. Our tool supports batch conversion, allowing you to convert multiple images simultaneously, further enhancing your productivity.&lt;/li&gt;
+      &lt;li&gt;Once you have selected your images, our tool offers additional customization options. You can choose the page size and orientation for your PDF file, enabling you to tailor the output according to your specific requirements. This flexibility ensures that the converted PDFs are well-suited for various purposes, such as printing, digital distribution, or professional presentations.&lt;/li&gt;
+      &lt;li&gt;Upon initiating the conversion process, our powerful engine works diligently to transform your images into PDF files while maintaining the highest quality. The resulting PDFs faithfully preserve the visual fidelity and clarity of the original images, ensuring that your converted documents are professional and visually appealing.&lt;/li&gt;
+      &lt;li&gt;After the conversion is complete, you can instantly download your PDF files. We have optimized the download process to be quick and hassle-free, enabling you to access your converted files promptly. You can then utilize the PDFs for various purposes, such as archiving family photos, creating digital portfolios, sharing documents securely, or any other application that requires the versatility and reliability of the PDF format.&lt;/li&gt;
+      &lt;li&gt;In conclusion, our Image to PDF Converter Tool is the perfect solution for anyone seeking a fast, efficient, and versatile way to convert their images into PDF files. With support for multiple image formats, lightning-fast conversions, user-friendly interface, and high-quality output, our tool empowers you to effortlessly transform your images into professional PDF documents. Experience the convenience and speed of our converter tool today and unlock a world of possibilities for your image-to-PDF conversion needs.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+
+
+  &lt;button onclick=&quot;toggleContactSection()&quot;&gt;Contact Us&lt;/button&gt;
+  &lt;div id=&quot;contact-section&quot; class=&quot;contact-section&quot;&gt;
+    &lt;h2&gt;Contact Us&lt;/h2&gt;
+    &lt;p&gt;For any inquiries or feedback, please feel free to get in touch with us using the following contact information:&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Email: mewzeno194@gmail.com&lt;/li&gt;
+     
+      &lt;li&gt;Address: New Delhi, India &lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;button onclick=&quot;toggleContactSection()&quot;&gt;Back&lt;/button&gt;
+  &lt;/div&gt;
+
+  &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.debug.js&quot;&gt;&lt;/script&gt;
+  &lt;script&gt;
+    var newImages = [];
+    var showImgs = [];
+
+    function loadFiles(event) {
+      var files = event.target.files; // Get the selected files
+      var showImgContainer = document.getElementById(&#39;showImg&#39;); // Get the showImg container element
+
+      for (var i = 0; i &lt; files.length; i++) {
+        var file = files[i];
+        var reader = new FileReader();
+
+        reader.onload = (function(file) {
+          return function(e) {
+            var showImg = document.createElement(&#39;img&#39;);
+            showImg.src = URL.createObjectURL(file);
+            showImgs.push(showImg);
+            showImgContainer.appendChild(showImg); // Append the image to the showImg container
+
+            var newImage = document.createElement(&#39;img&#39;);
+            newImage.src = URL.createObjectURL(file);
+            newImages.push(newImage);
+
+            showImg.onload = function() {
+              URL.revokeObjectURL(showImg.src); // Free memory
+            };
+          };
+        })(file);
+
+        reader.readAsDataURL(file);
+      }
+    }
+
+    function pdfDown() {
+      var doc = new jsPDF();
+
+      for (var i = 0; i &lt; newImages.length; i++) {
+        var image = newImages[i];
+        var canvas = document.createElement(&#39;canvas&#39;);
+        var ctx = canvas.getContext(&#39;2d&#39;);
+
+        canvas.width = image.width;
+        canvas.height = image.height;
+        ctx.drawImage(image, 0, 0);
+
+        var imageData = canvas.toDataURL(&#39;image/jpeg&#39;, 1.0);
+        if (image.width / image.height &gt; 1.7) {
+          doc.addImage(imageData, &#39;JPEG&#39;, 5, 0, 0, 110);
+        } else {
+          doc.addImage(imageData, &#39;JPEG&#39;, 20, 0, 165, 0);
+        }
+        if (i &lt; newImages.length - 1) {
+          doc.addPage();
+        }
+      }
+
+      doc.save(&#39;ImgToPDF.pdf&#39;);
+    }
+
+    function toggleContactSection() {
+      var contactSection = document.getElementById(&quot;contact-section&quot;);
+      if (contactSection.style.display === &quot;none&quot;) {
+        contactSection.style.display = &quot;block&quot;;
+      } else {
+        contactSection.style.display = &quot;none&quot;;
+      }
+    }
+  &lt;/script&gt;
+
+
+&lt;/div&gt;&lt;/!doctype&gt;</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+
+  <b:include name='quickedit'/>
+</b:includable>
+  </b:widget>
+</b:section>
+
+<body>
+</body>
+
+</html>
