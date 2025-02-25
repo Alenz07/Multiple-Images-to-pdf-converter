@@ -15,3 +15,4 @@ JavaScript for handling user interactions and processing
 jsPDF library (loaded from CDN) for generating PDF documents
 FileReader API for handling file uploads
 Canvas API for image processing before PDF generation
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
